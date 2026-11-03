@@ -1,4 +1,12 @@
 const memories = [
+{"category": "Shows", "title": "CatDog", "style": "catdog", "status": "Remembered", "text": "CatDog."},
+{"category": "Shows", "title": "Courage the Cowardly Dog", "style": "courage", "status": "Remembered", "text": "Courage the Cowardly Dog."},
+{"category": "Shows", "title": "Hey Arnold!", "style": "arnold", "status": "Remembered", "text": "Hey Arnold!."},
+{"category": "Shows", "title": "Dexter’s Laboratory", "style": "dexter", "status": "Remembered", "text": "Dexter’s Laboratory."},
+{"category": "Shows", "title": "The Powerpuff Girls", "style": "powerpuff", "status": "Remembered", "text": "The Powerpuff Girls."},
+{"category": "Shows", "title": "Ed, Edd n Eddy", "style": "ededdy", "status": "Remembered", "text": "Ed, Edd n Eddy."},
+{"category": "Shows", "title": "Johnny Bravo", "style": "johnny", "status": "Remembered", "text": "Johnny Bravo."},
+
 {"category": "Shows", "title": "Postman Pat", "style": "pat", "status": "Remembered", "text": "Postman Pat."},
 {"category": "Shows", "title": "Bob the Builder", "style": "bob", "status": "Remembered", "text": "Bob the Builder."},
 
@@ -23,8 +31,8 @@ const memories = [
 ];
 
 const categories=['All','Games','Shows','Food','Everyday things'];
-const pictures={'pat':'images/pat-1.jpg','bob':'images/bob.jpg','franny':'images/franny-1.gif','noddy':'images/noddy-1.webp','oswald':'images/oswald-1.jpg','beakman':'images/beakman-1.jpg','pogo':'images/pogo.png','mad':'images/mad.jpg','revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg'};
-const titles={'pat':'Postman Pat','bob':'Bob the Builder','franny':'Franny’s Feet',"noddy":"Noddy","oswald":"Oswald","pogo":"Pogo channel","mad":"M.A.D.","beakman":"Beakman’s World",'revolt':'Re-Volt','motocross':'Motocross Madness','barney':'Fun on the Farm with Barney','treasure':'Treasure Mountain!','stunt':'Stunt GP','digit':'Digit magazine demo CDs','rally':'Mini Cooper rally demo','lotus':'Unidentified Lotus racing game','cartoon':'Unidentified cartoon car game'};
+const pictures={'catdog':'images/catdog-1.jpg','courage':'images/courage-1.jpg','arnold':'images/arnold-1.jpg','dexter':'images/dexter.png','powerpuff':'images/powerpuff.jpg','ededdy':'images/ededdy-1.jpg','johnny':'images/johnny-1.jpg','pat':'images/pat-1.jpg','bob':'images/bob.jpg','franny':'images/franny-1.gif','noddy':'images/noddy-1.webp','oswald':'images/oswald-1.jpg','beakman':'images/beakman-1.jpg','pogo':'images/pogo.png','mad':'images/mad.jpg','revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg'};
+const titles={"catdog":"CatDog","courage":"Courage the Cowardly Dog","arnold":"Hey Arnold!","dexter":"Dexter’s Laboratory","powerpuff":"The Powerpuff Girls","ededdy":"Ed, Edd n Eddy","johnny":"Johnny Bravo",'pat':'Postman Pat','bob':'Bob the Builder','franny':'Franny’s Feet',"noddy":"Noddy","oswald":"Oswald","pogo":"Pogo channel","mad":"M.A.D.","beakman":"Beakman’s World",'revolt':'Re-Volt','motocross':'Motocross Madness','barney':'Fun on the Farm with Barney','treasure':'Treasure Mountain!','stunt':'Stunt GP','digit':'Digit magazine demo CDs','rally':'Mini Cooper rally demo','lotus':'Unidentified Lotus racing game','cartoon':'Unidentified cartoon car game'};
 const notes={'digit':'I used to get demo discs with Digit magazine in India.','rally':'I remember driving a Mini Cooper on dirt. Possibly Rally Trophy, included on Digit’s December 2001 disc.','lotus':'An old Lotus with one seat, an open cockpit, and a long pointed body. Played on PC. Still looking for the name.','cartoon':'A cartoonish, almost egg-shaped car driven around a course. Still unidentified.'};
 let selected=new URLSearchParams(location.search).get('category')||'All';
 if(!categories.includes(selected))selected='All';
