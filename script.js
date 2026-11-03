@@ -1,4 +1,9 @@
 const memories = [
+{"category": "Shows", "title": "Noddy", "style": "noddy", "status": "Remembered", "text": "Noddy."},
+{"category": "Shows", "title": "Oswald", "style": "oswald", "status": "Remembered", "text": "Oswald."},
+{"category": "Shows", "title": "Pogo channel", "style": "pogo", "status": "Remembered", "text": "Pogo channel."},
+{"category": "Shows", "title": "M.A.D.", "style": "mad", "status": "Remembered", "text": "M.A.D.."},
+{"category": "Shows", "title": "Beakman’s World", "style": "beakman", "status": "Remembered", "text": "Beakman’s World."},
 {"category": "Games", "title": "Re-Volt", "style": "revolt", "status": "Likely match", "text": "I think it is Re-Volt."},
 {"category": "Games", "title": "Motocross Madness", "style": "motocross", "status": "Confirmed", "text": "I remember a dirt-bike game. It was Motocross Madness."},
 {"category": "Games", "title": "Fun on the Farm with Barney", "style": "barney", "status": "Confirmed", "text": "I played this in the school computer lab. There was a farm, and the opening told me to choose the place I wanted to go and click."},
@@ -14,9 +19,9 @@ const memories = [
 ];
 
 const categories=['All','Games','Shows','Food','Everyday things'];
-const pictures={'revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg'};
-const titles={'revolt':'Re-Volt','motocross':'Motocross Madness','barney':'Fun on the Farm with Barney','treasure':'Treasure Mountain!','stunt':'Stunt GP','digit':'Digit magazine demo CDs','rally':'Mini Cooper rally demo','lotus':'Unidentified Lotus racing game','cartoon':'Unidentified cartoon car game'};
-const notes={'digit':'I used to get demo discs with Digit magazine in India.','rally':'I remember driving a Mini Cooper on dirt. Possibly Rally Trophy, included on Digit’s December 2001 disc.','lotus':'An old Lotus with one seat, an open cockpit, and a long pointed body. Played on PC. Still looking for the name.','cartoon':'A cartoonish, almost egg-shaped car driven around a course. Picture shows BuzzingCars, a possible match—not confirmed.'};
+const pictures={'noddy':'images/noddy-1.webp','oswald':'images/oswald-1.jpg','beakman':'images/beakman-1.jpg','pogo':'images/pogo.png','mad':'images/mad.jpg','revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg'};
+const titles={"noddy":"Noddy","oswald":"Oswald","pogo":"Pogo channel","mad":"M.A.D.","beakman":"Beakman’s World",'revolt':'Re-Volt','motocross':'Motocross Madness','barney':'Fun on the Farm with Barney','treasure':'Treasure Mountain!','stunt':'Stunt GP','digit':'Digit magazine demo CDs','rally':'Mini Cooper rally demo','lotus':'Unidentified Lotus racing game','cartoon':'Unidentified cartoon car game'};
+const notes={'digit':'I used to get demo discs with Digit magazine in India.','rally':'I remember driving a Mini Cooper on dirt. Possibly Rally Trophy, included on Digit’s December 2001 disc.','lotus':'An old Lotus with one seat, an open cockpit, and a long pointed body. Played on PC. Still looking for the name.','cartoon':'A cartoonish, almost egg-shaped car driven around a course. Still unidentified.'};
 let selected=new URLSearchParams(location.search).get('category')||'All';
 if(!categories.includes(selected))selected='All';
 const filters=document.querySelector('#filters');
