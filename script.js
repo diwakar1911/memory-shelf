@@ -14,7 +14,7 @@ const memories = [
 ];
 
 const categories=['All','Games','Shows','Food','Everyday things'];
-const pictures={'revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg','cartoon':'images/buzzing.jpg'};
+const pictures={'revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg'};
 const titles={'revolt':'Re-Volt','motocross':'Motocross Madness','barney':'Fun on the Farm with Barney','treasure':'Treasure Mountain!','stunt':'Stunt GP','digit':'Digit magazine demo CDs','rally':'Mini Cooper rally demo','lotus':'Unidentified Lotus racing game','cartoon':'Unidentified cartoon car game'};
 const notes={'digit':'I used to get demo discs with Digit magazine in India.','rally':'I remember driving a Mini Cooper on dirt. Possibly Rally Trophy, included on Digit’s December 2001 disc.','lotus':'An old Lotus with one seat, an open cockpit, and a long pointed body. Played on PC. Still looking for the name.','cartoon':'A cartoonish, almost egg-shaped car driven around a course. Picture shows BuzzingCars, a possible match—not confirmed.'};
 let selected=new URLSearchParams(location.search).get('category')||'All';
