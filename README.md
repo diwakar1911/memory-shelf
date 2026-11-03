@@ -20,3 +20,6 @@ Every item page uses an outer Details dropdown, containing a nested My notes dro
 - Stunt GP gallery pictures: https://games.tiscali.cz/stunt-gp-1226/galerie
 
 - Barney thumbnail: user-confirmed video https://www.youtube.com/watch?v=N89Vx-DrA1s
+
+## Thumbnail standard
+For every new or changed entry, visually inspect its thumbnail at collection-tile size. Prefer a clear, recognisable character/cast picture or readable original logo. Avoid cluttered video frames, unrelated scenes, tiny text, making-of shots, and artwork from a different version. Keep unidentified memories without thumbnails. Check the actual image file, not only its filename or source title.
