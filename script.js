@@ -1,4 +1,7 @@
 const memories = [
+{"category": "Shows", "title": "Postman Pat", "style": "pat", "status": "Remembered", "text": "Postman Pat."},
+{"category": "Shows", "title": "Bob the Builder", "style": "bob", "status": "Remembered", "text": "Bob the Builder."},
+
 {"category": "Shows", "title": "Franny’s Feet", "style": "franny", "status": "Confirmed", "text": "I remember a girl whose shoes took her to different places, and the opening song."},
 {"category": "Shows", "title": "Noddy", "style": "noddy", "status": "Remembered", "text": "Noddy."},
 {"category": "Shows", "title": "Oswald", "style": "oswald", "status": "Remembered", "text": "Oswald."},
@@ -20,8 +23,8 @@ const memories = [
 ];
 
 const categories=['All','Games','Shows','Food','Everyday things'];
-const pictures={'franny':'images/franny-1.gif','noddy':'images/noddy-1.webp','oswald':'images/oswald-1.jpg','beakman':'images/beakman-1.jpg','pogo':'images/pogo.png','mad':'images/mad.jpg','revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg'};
-const titles={'franny':'Franny’s Feet',"noddy":"Noddy","oswald":"Oswald","pogo":"Pogo channel","mad":"M.A.D.","beakman":"Beakman’s World",'revolt':'Re-Volt','motocross':'Motocross Madness','barney':'Fun on the Farm with Barney','treasure':'Treasure Mountain!','stunt':'Stunt GP','digit':'Digit magazine demo CDs','rally':'Mini Cooper rally demo','lotus':'Unidentified Lotus racing game','cartoon':'Unidentified cartoon car game'};
+const pictures={'pat':'images/pat-1.jpg','bob':'images/bob.jpg','franny':'images/franny-1.gif','noddy':'images/noddy-1.webp','oswald':'images/oswald-1.jpg','beakman':'images/beakman-1.jpg','pogo':'images/pogo.png','mad':'images/mad.jpg','revolt':'images/revolt-1.webp','motocross':'images/motocross-2.webp','barney':'images/barney.jpg','treasure':'images/treasure-mountain.png','stunt':'images/stunt-1.jpg','digit':'images/digit.jpg','rally':'images/mini.jpg'};
+const titles={'pat':'Postman Pat','bob':'Bob the Builder','franny':'Franny’s Feet',"noddy":"Noddy","oswald":"Oswald","pogo":"Pogo channel","mad":"M.A.D.","beakman":"Beakman’s World",'revolt':'Re-Volt','motocross':'Motocross Madness','barney':'Fun on the Farm with Barney','treasure':'Treasure Mountain!','stunt':'Stunt GP','digit':'Digit magazine demo CDs','rally':'Mini Cooper rally demo','lotus':'Unidentified Lotus racing game','cartoon':'Unidentified cartoon car game'};
 const notes={'digit':'I used to get demo discs with Digit magazine in India.','rally':'I remember driving a Mini Cooper on dirt. Possibly Rally Trophy, included on Digit’s December 2001 disc.','lotus':'An old Lotus with one seat, an open cockpit, and a long pointed body. Played on PC. Still looking for the name.','cartoon':'A cartoonish, almost egg-shaped car driven around a course. Still unidentified.'};
 let selected=new URLSearchParams(location.search).get('category')||'All';
 if(!categories.includes(selected))selected='All';
