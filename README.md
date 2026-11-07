@@ -1,5 +1,5 @@
 # My memories
-A simple picture-and-title collection with All, Games, Shows, Food, and Everyday things filters. Each item links to its own HTML page with a photo gallery and a collapsed Details section. Click a photo to open it at full size. Category selection is kept when returning to the collection.
+A simple picture-and-title collection with All, Games, Shows, Books, Food, and Everyday things filters. Each item links to its own HTML page with a photo gallery and a collapsed Details section. Click a photo to open it at full size. Category selection is kept when returning to the collection.
 
 ## Publish on GitHub Pages
 Upload these files to a GitHub repository. In Settings → Pages, select Deploy from a branch → main → / (root).
@@ -23,3 +23,8 @@ Every item page uses an outer Details dropdown, containing a nested My notes dro
 
 ## Thumbnail standard
 For every new or changed entry, visually inspect its thumbnail at collection-tile size. Prefer a clear, recognisable character/cast picture or readable original logo. Avoid cluttered video frames, unrelated scenes, tiny text, making-of shots, and artwork from a different version. Keep unidentified memories without thumbnails. Check the actual image file, not only its filename or source title.
+
+## Book memories added November 7, 2026
+- Captain Underpants: books confirmed; exact volumes/editions unspecified. Reference full-colour book-one cover: https://embed.cdn.pais.scholastic.com/v1/products/identifiers/isbn/9780545499088/primary/renditions/600?useMissingImage=true
+- Choo Choo, the Runaway Engine: Virginia Lee Burton. Reference Scholastic cover: https://covers.openlibrary.org/b/isbn/9780590044363-L.jpg
+- Sue the dinosaur: preserved as remembered; exact book title and cover unconfirmed.
