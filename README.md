@@ -1,5 +1,5 @@
 # My memories
-A simple picture-and-title collection with All, Games, Shows, Books, Food, and Everyday things filters. Each item links to its own HTML page with a photo gallery and a collapsed Details section. Click a photo to open it at full size. Category selection is kept when returning to the collection.
+A simple picture-and-title collection with All, Games, Shows, Movies, Books, Food, and Everyday things filters. Each item links to its own HTML page with a photo gallery and a collapsed Details section. Click a photo to open it at full size. Category selection is kept when returning to the collection.
 
 ## Publish on GitHub Pages
 Upload these files to a GitHub repository. In Settings → Pages, select Deploy from a branch → main → / (root).
@@ -28,3 +28,7 @@ For every new or changed entry, visually inspect its thumbnail at collection-til
 - Captain Underpants: books confirmed; exact volumes/editions unspecified. Reference full-colour book-one cover: https://embed.cdn.pais.scholastic.com/v1/products/identifiers/isbn/9780545499088/primary/renditions/600?useMissingImage=true
 - Choo Choo, the Runaway Engine: Virginia Lee Burton. Reference Scholastic cover: https://covers.openlibrary.org/b/isbn/9780590044363-L.jpg
 - Sue the dinosaur: publisher Scholastic confirmed. Likely match: A Dinosaur Named Sue: The Find of the Century by Fay Robinson (1999), ISBN 9780439099837; exact title/cover awaiting recognition. Cover source: https://embed.cdn.pais.scholastic.com/v1/products/identifiers/isbn/9780439099837/primary/renditions/600?useMissingImage=false
+
+## Additional memories, November 7, 2026
+- Micro Planes confirmed by user. Cover and four gallery images: https://www.ebay.com/itm/398424702138 and https://www.ebay.com/p/2237666
+- Movies: Casper (version unspecified), Death Becomes Her (1992), Flubber (1997), Godzilla (version unspecified). Posters from official Universal and Disney pages linked in the item pages.
