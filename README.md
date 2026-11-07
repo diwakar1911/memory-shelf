@@ -27,4 +27,4 @@ For every new or changed entry, visually inspect its thumbnail at collection-til
 ## Book memories added November 7, 2026
 - Captain Underpants: books confirmed; exact volumes/editions unspecified. Reference full-colour book-one cover: https://embed.cdn.pais.scholastic.com/v1/products/identifiers/isbn/9780545499088/primary/renditions/600?useMissingImage=true
 - Choo Choo, the Runaway Engine: Virginia Lee Burton. Reference Scholastic cover: https://covers.openlibrary.org/b/isbn/9780590044363-L.jpg
-- Sue the dinosaur: preserved as remembered; exact book title and cover unconfirmed.
+- Sue the dinosaur: publisher Scholastic confirmed. Likely match: A Dinosaur Named Sue: The Find of the Century by Fay Robinson (1999), ISBN 9780439099837; exact title/cover awaiting recognition. Cover source: https://embed.cdn.pais.scholastic.com/v1/products/identifiers/isbn/9780439099837/primary/renditions/600?useMissingImage=false
